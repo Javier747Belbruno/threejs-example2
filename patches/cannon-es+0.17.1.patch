@@ -1,0 +1,15 @@
+diff --git a/node_modules/cannon-es/examples/js/three-conversion-utils.js b/node_modules/cannon-es/examples/js/three-conversion-utils.js
+index a38d049..bb381b5 100644
+--- a/node_modules/cannon-es/examples/js/three-conversion-utils.js
++++ b/node_modules/cannon-es/examples/js/three-conversion-utils.js
+@@ -1,7 +1,7 @@
+ import * as CANNON from '../../dist/cannon-es.js'
+-import * as THREE from 'https://unpkg.com/three@0.122.0/build/three.module.js'
+-import { ConvexGeometry } from 'https://unpkg.com/three@0.122.0/examples/jsm/geometries/ConvexGeometry.js'
+-import { SimplifyModifier } from 'https://unpkg.com/three@0.122.0/examples/jsm/modifiers/SimplifyModifier.js'
++import * as THREE from 'three'
++import { ConvexGeometry } from 'three/examples/jsm/geometries/ConvexGeometry.js'
++import { SimplifyModifier } from 'three/examples/jsm/modifiers/SimplifyModifier.js'
+ 
+ /**
+  * Converts a cannon.js shape to a three.js geometry
